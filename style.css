@@ -6,7 +6,7 @@
     --color-cuaternario: hsl(154, 90%, 50%) ;
     --color: hsl(44, 90%, 50%);
     --fuente: monospace;
-    --fuente-tamano: 24px;
+    --fuente-tamano: 20px;
     --bordes: 2px solid var(--color-secundario);
     --padding-1: 1%;
 }
@@ -39,9 +39,9 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-bottom: 4px dashed var(--color-secundario);
+    border-bottom: 2px dashed var(--color-secundario);
     padding: var(--padding-1) 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -59,7 +59,7 @@ body {
     justify-content: center;
     gap: 50px;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -93,7 +93,7 @@ body {
     width: 100%;
 }
 
-/* Pagina Carga (pag 2) */
+/* PaginaCarga (pag 2) */
 .pagina_carga {
     padding: 0 0 0 10%;
     display: flex;
@@ -101,7 +101,7 @@ body {
 }
 
 .pagina_carga_texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Encriptador (pag 3) */
@@ -114,11 +114,11 @@ body {
 }
 
 .encriptador_titulo_ASCII {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 .encriptador_titulo_descripcion {
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: left;
     padding: 0 0 2%;
 }
@@ -144,9 +144,9 @@ body {
     color: var(--color-secundario);
     background: hsla(154, 70%, 23%, 0.253);
     text-shadow: 0 0 4px var(--color-secundario);
-    font-size: 20px;
-    width: 900px;
-    height: 500px;
+    font-size: 15px;
+    width: 700px;
+    height: 350px;
     border: var(--bordes);
 }
 
@@ -163,14 +163,14 @@ body {
     color: var(--color-primario);
     text-shadow: 0 0 2px var(--color-primario);
     box-shadow: 0 0 4px var(--color-secundario);
-    font-size: 24px;
-    width: 280px;
-    height: 50px;
+    font-size: 20px;
+    width: 180px;
+    height: 52px;
     border: var(--bordes);
 }
 
 .encriptador_proceso_parametros {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .encriptador_proceso_seleccion {
@@ -178,14 +178,14 @@ body {
     flex-direction: column;
     justify-content: baseline;
     padding: 0 1%;
-    gap:10px;
+    gap:7px;
 }
 
 .encriptador_proceso_seleccion_botones {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    gap:10px;
+    gap:7px;
 }
 
 
@@ -194,15 +194,15 @@ body {
     background-color: transparent;
     text-shadow: 0 0 4px var(--color-secundario);
     font-size: 30px;
-    width: 400px;
-    height: 150px;
+    width: 300px;
+    height: 100px;
     border: var(--bordes);
 }
 
 .encriptador_proceso_accion {
     display: flex;
-    width: 400px;
-    height: 240px;
+    width: 300px;
+    height: 195px;
     align-items: center;
 }
 
@@ -210,35 +210,35 @@ body {
     display: none;
     border: var(--bordes);
     display: flex;
-    font-size: 1rem;
-    width: 400px;
-    height: 240px;
+    font-size: 0.8rem;
+    width: 300px;
+    height: 195px;
     background-color: hsla(154, 70%, 23%, 0.253);
 }
 
 #proceso_encriptar_ascii{
-    padding: 5% 0 0 30%;
+    padding: 6% 0 0 30%;
 }
 
 #proceso_desencriptar_ascii{
-    padding: 5% 0 0 30%;
+    padding: 6% 0 0 30%;
 }
 
 #proceso_copiar_ascii{
-    padding: 5% 0 0 20%;
-    font-size: 10px;
+    padding: 4% 0 0 20%;
+    font-size: 0.5rem;
 }
 
 #proceso_error_ascii{
-    padding: 20% 0 0 17%;
+    padding: 17% 0 0 5%;
     font-size: 5px;
     color: #e80a0a;
     background-color: hsla(0, 92%, 42%, 0.253);
 }
 
 #proceso_alerta_ascii {
-    font-size: 0.4rem;
-    padding: 2% 0 0 22%;
+    font-size: 0.3rem;
+    padding: 3% 0 0 22%;
     color: hsl(44, 90%, 50%);
     background-color: hsla(43, 94%, 46%, 0.253);
 }
@@ -261,32 +261,32 @@ body {
     color: var(--color-secundario);
     background: hsla(154, 70%, 23%, 0.253);
     text-shadow: 0 0 4px var(--color-secundario);
-    font-size: 20px;
-    width: 450px;
+    font-size: 15px;
+    width: 300px;
     border: var(--bordes);
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-y: auto;
     overflow-x: hidden;
     height: 100%; 
-    max-height: 500px; 
+    max-height: 350px; 
     resize: none; 
 }
 
 .encriptador_proceso_salida_botoncopiar {
     display: none; 
     position: absolute; 
-    bottom: 180px; 
-    right: 135px;
+    bottom: 155px; 
+    right: 113px;
     background-color: var(--color-cuaternario);
     color: var(--color-primario);
     text-shadow: 0 0 2px var(--color-primario);
     box-shadow: 0 0 4px hsl(154 84% 70%);
-    font-size: 24px;
+    font-size: 20px;
     border: 2px solid hsl(154 84% 70%);
     padding: 5px 10px; 
     z-index: 1; 
-    width: 450px;
+    width: 300px;
 }
 
 
