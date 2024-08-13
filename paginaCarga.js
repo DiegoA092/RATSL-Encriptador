@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (index < text.length) {
       elementoTexto.textContent += text.charAt(index);
       index++;
-      setTimeout(() => typeWriter(text, index), 10);
+      setTimeout(() => typeWriter(text, index), 5);
       cursor.innerHTML = '_';
     } else {
       elementoTexto.textContent += '\n';
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
           elementoTexto.textContent = textoCarga.join('\n') + '\nSTARTING APPLICATION' + '.'.repeat(conteoPuntos % 4);
           conteoPuntos++;
         }, 500);
-        setTimeout(iniciarApp, 6000);
+        setTimeout(iniciarApp, 5000);
       }
     }
   }
