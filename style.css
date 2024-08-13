@@ -145,7 +145,7 @@ body {
     background: hsla(154, 70%, 23%, 0.253);
     text-shadow: 0 0 4px var(--color-secundario);
     font-size: 15px;
-    width: 700px;
+    width: 650px;
     height: 350px;
     border: var(--bordes);
 }
@@ -262,7 +262,7 @@ body {
     background: hsla(154, 70%, 23%, 0.253);
     text-shadow: 0 0 4px var(--color-secundario);
     font-size: 15px;
-    width: 300px;
+    width: 350px;
     border: var(--bordes);
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -286,7 +286,7 @@ body {
     border: 2px solid hsl(154 84% 70%);
     padding: 5px 10px; 
     z-index: 1; 
-    width: 300px;
+    width: 350px;
 }
 
 
