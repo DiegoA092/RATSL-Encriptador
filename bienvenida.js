@@ -35,17 +35,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   prompt.prepend('>');
   cursor.innerHTML = '_';
   document.addEventListener('keydown', (e) => presionarEnter(e));
-  document.addEventListener('touchstart', () => presionarEnter({ key: 'Enter' }));
+  document.addEventListener('touchstart', () => presionarEnter({ key : 'Enter' }));
 })
 
 function presionarEnter(e)
 { 
   function enfocarEntrada() {
+    if (e.key === 'Enter'){
     const elements = ['INPUT', 'TEXTAREA', 'BUTTON'];
     return elements.indexOf(document.activeElement.tagName) === -1;
+    }
   }
   
-  if (e.key === 'Enter' && enfocarEntrada()) {
+  if (enfocarEntrada()) {
     window.location.href = 'paginaCarga.html';
     }
   }  
