@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   prompt.prepend('>');
   cursor.innerHTML = '_';
   document.addEventListener('keydown', (e) => presionarEnter(e));
+  document.addEventListener('touchstart', (e) => presionarEnter(e));
 })
 
 function presionarEnter(e)
