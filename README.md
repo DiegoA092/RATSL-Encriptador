@@ -75,6 +75,7 @@ Muestra el porcentaje de progreso del procesamiento del texto, así como los res
 <li>Iniciar el programa:
 <ul>
 <li>Una vez cargada la página de bienvenida, presiona "Enter" como se indica en la pantalla.
+<li>Para dispositivos mobiles, con tocar la pantalla sera suficiente.
 </ul>
 <li>Proceso de carga:
 <ul>
