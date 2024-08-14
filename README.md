@@ -70,7 +70,7 @@ Muestra el porcentaje de progreso del procesamiento del texto, así como los res
 <ol>
 <li>Abrir la aplicación:
 <ul>
-<li>Visita el siguiente enlace para acceder a la página de GitHub Pages: <a src="https://diegoa092.github.io/RATSL-Encriptador">RATSL</a>
+<li>Visita el siguiente enlace para acceder a la página de GitHub Pages: <a href="https://diegoa092.github.io/RATSL-Encriptador">RATSL</a>
 </ul>
 <li>Iniciar el programa:
 <ul>
